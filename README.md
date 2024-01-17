@@ -1,7 +1,7 @@
 
 # Pong Q-Learning
 
-Le but de ce projet est d'expérimenter l'utilisation de l'algorithme Q-learning pour battre un programme de jeu Pong. Cela inclura la programmation du Q-learner, le choix des hyperparamètres et la quantification de l'état. L'atelier comprendra la rédaction d'une simulation basée sur Python, puis un rapport qui analyse et explique les résultats.
+Le but de ce projet est d'expérimenter l'utilisation de l'algorithme Q-learning pour battre un programme de jeu Pong. Cela inclura la programmation du Q-learner, le choix des hyperparamètres et la quantification de l'état. L'atelier comprendra la rédaction d'une simulation basée sur Python.
 
 ## Outils
 
@@ -21,17 +21,7 @@ $ conda activate q_learning_pong
 $ pip install -r requirements.txt
 ```
 
-Pour entraîner l'agent, vous pouvez appeler Q_Learning.py directement:
-
-```bash
-$ python Q_Learning.py grid_dem alpha epsilon num_episodes check_freq file_name [agent_type]
-```
-
-Pour tester l'agent, vous pouvez appeler runEpisode.py directement:
-
-```bash
-$ python runEpisode.py grid_dem file_name
-```
+ 
 
 ![image](https://github.com/BILALck4/RL-PING-PONG/assets/115404316/058d839b-7376-4970-baac-388a2152e717)
 
